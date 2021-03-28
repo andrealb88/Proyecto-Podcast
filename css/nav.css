@@ -101,8 +101,7 @@ a:active {
   display: flex;
   transform: scale(1.1);
   transition: all ease-out 0.2s;
-  color: #00f3bb;
-  text-decoration: line-through;
+  color: #ffffff;
 }
 .anchor:active {
   display: flex;
