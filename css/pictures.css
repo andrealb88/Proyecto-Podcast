@@ -38,6 +38,7 @@
   .abajo {
     display: flex;
     flex-direction: row;
+      width: 100%;
   }
   .pictures {
     margin-top: -2%;
