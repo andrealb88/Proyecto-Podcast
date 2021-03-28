@@ -36,13 +36,13 @@
   padding-left: 15px;
   margin-top: 20%;
 }
-.phone {
+#phone {
   display: flex;
   width: 100%;
   transform: translate(0, -135px);
   z-index: 1;
 }
-#references {
+.references {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -122,7 +122,7 @@
     margin-left: 15%;
     padding-bottom: 15px;
   }
-  .phone {
+  #phone {
     display: flex;
     max-width: 457px;
     width: 100%;
@@ -139,7 +139,7 @@
   .paragraph1 {
     margin-bottom: -3%;
   }
-  #references {
+  .references {
     display: flex;
     flex-direction: column;
     width: 63%;
