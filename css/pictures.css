@@ -19,7 +19,7 @@
   width: 100%;
   vertical-align: top;
 }
-.pictures {
+#pictures {
   margin-top: 5%;
 }
 
@@ -40,7 +40,7 @@
     flex-direction: row;
       width: 100%;
   }
-  .pictures {
+  #pictures {
     margin-top: -2%;
   }
   #interview {

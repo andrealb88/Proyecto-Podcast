@@ -57,7 +57,7 @@
   justify-content: right;
   width: 100%;
 }
-#nos {
+.nos {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 36px;
@@ -148,7 +148,7 @@
     padding-top: 18%;
     line-height: 1.3;
   }
-  #nos {
+  .nos {
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-size: 48px;
