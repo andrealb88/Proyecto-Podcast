@@ -18,7 +18,7 @@
   margin-top: -15px;
 }
 .span-dot {
-  color: #0000ec;
+  color: #060a24;
 }
 .span-world {
   text-decoration: line-through;
@@ -36,7 +36,7 @@
 }
 .button {
   background: #00f3bb;
-  color: #060a24;
+  color: #ffffff;
   width: 95%;
   height: 48px;
   border: none;
@@ -51,7 +51,7 @@
 }
 .button:hover {
   background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
-  color: #ffffff;
+  
 }
 @media screen and (min-width: 768px) {
   .header {
@@ -69,6 +69,9 @@
     font-size: 64px;
     width: 80%;
     color: #060a24;
+  }
+  .span-dot {
+    color: #0000ec;
   }
   .subtitle {
     font-family: "IBM Plex Mono", monospace;
