@@ -1,128 +1,179 @@
-
-
-   
-  .clip-path {
-    position: absolute;
-    height: 1042px;
-    width: 100%;
-    background-image: linear-gradient(#0000FF,#0000A3 100%);
-    clip-path: polygon(0 20%, 100% 0, 100% 85%, 0 100%);
-    z-index: -1;
-  }
-
-  .pictures-podcast{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 200px;
-    margin-left: 250px;
-  
-  }
-
-  .title-episodios{
-    position:relative;
-    top:200px ;
-    left:200px;
-    font-family: 'IBM Plex Sans';
-    font-size: 48px;
-  
-  
-  }
-
-  .imagen{
-    height: 232px;
-    width: 584px;
-    border:1px solid black;
-    margin: 40px; 
-    
-  }
-
-  .references-title{
-    font-family: 'IBM Plex Sans';
-    font-size: 48px;
-    text-align: left;
-  }
-.paragraph{
-    font-family: 'IBM Plex Mono';
-    font-size: 16px;
-    font-weight: 200;
-    height: 256px;
-    width: 464px;
-    text-align: justify;
+.episodios-clip-path {
+  width: 100%;
+  height: 1350px;
+  background-image: linear-gradient(#0000ff, #0000a3 100%);
+  clip-path: polygon(0 3%, 100% 0, 100% 95%, 0 100%);
+  z-index: -1;
+  margin-top: 2%;
+  z-index: 1;
 }
-.episodios-podcast-mobile{
-  display: none;
-}
-.episodios{
-  color: #FFFFFF;
-}
-.text-references{
- display: flex;
- flex-direction: column;
- margin-bottom: 30px ;
- 
-}
-.part-1{
-  padding:20px;
-}
-.phone{
-  margin-right: 150px;
-  width: 457px;
-  height: 660px;
-}
-.references{
-  display:flex;
-  flex-direction: row-reverse;
-  justify-content: center;
+.contenedor-podcast {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
-
-@media screen and  (min-width: 300px) and (max-width: 899px){
-
-
-  .clip-path {
-    position: absolute;
-    width: 110%;
-    height: 230%;
-    background-image: linear-gradient(#0000FF,#0000A3 100%);
-    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+.spotify {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 5%;
+}
+.pictures-podcast {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  top: 63%;
+}
+#episodes {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  bottom: 1100px;
+  color: #ffffff;
+  padding-left: 15px;
+  margin-top: 20%;
+}
+.phone {
+  display: flex;
+  width: 100%;
+  transform: translate(0, -135px);
+}
+.references {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 360px;
+  padding-left: 15px;
+  margin-top: -16%;
+}
+.mobilephone {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 100%;
+}
+#nos {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: left;
+  width: 90%;
+  margin-bottom: 5%;
+}
+.paragraph1,
+.paragraph2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  text-align: left;
+  width: 97%;
+}
+.paragraph2 {
+  margin-top: 5%;
+}
+.podcasta {
+  margin-bottom: 2%;
+}
+.podcastb {
+  margin-bottom: 2%;
+}
+@media screen and (min-width: 768px) {
+  .episodios-clip-path {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#0000ff, #0000a3 100%);
+    clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
     z-index: -1;
-    margin-top: 100px;
+    padding-bottom: 10%;
+    z-index: 1;
   }
-  .episodios-podcast{
-    display: none;
+  .spotify {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -2%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
-  .episodios-podcast-mobile{
-    display: inline-block;
-    margin-top:-400px;
+  .top {
+    display: flex;
+    flex-direction: row;
   }
-  .imagen{
-    width:298px;
-    height:225px;
-    
+  .bottom {
+    display: flex;
+    flex-direction: row;
   }
-  .title-episodios{
-    margin-left: -130px; 
-    margin-bottom: 600px;
-    margin-top:-100px;
+  .podcasta {
+    margin-bottom: 5%;
+    margin-right: 5%;
   }
-  .phone{
-    margin-left: 220px;
-    width: 360px;
-    height: 519px;
-    margin-right: 600px;
+  #episodes {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    bottom: 1100px;
+    color: #ffffff;
+    margin-left: 15%;
+    padding-bottom: 15px;
   }
-  .paragraph{
-    font-size: 14px;
+  .phone {
+    display: flex;
+    max-width: 457px;
+    width: 100%;
+    transform: translate(18px, -155px);
+    z-index: 1;
+  }
+  .paragraph1,
+  .paragraph2 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    text-align: left;
+    width: 63%;
+  }
+  .paragraph1 {
+    margin-bottom: -3%;
+  }
+  .references {
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+    height: 360px;
+    padding-left: 10%;
+    padding-top: 18%;
+  }
+  #nos {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
     text-align: left;
   }
-  .references{
+  .mobilephone {
     display: flex;
-    flex-wrap: wrap-reverse;
-    width:100%;
-    
-   }
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    padding-left: 10%;
   }
-
-
+  .pictures-podcast {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-episodios {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    bottom: 1100px;
+    color: #ffffff;
+    padding-left: 5%;
+    padding-bottom: 15px;
+  }
+  .contenedor-podcast {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .episodio-junto {
+    margin-top: -8%;
+  }
+}
