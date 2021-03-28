@@ -139,7 +139,7 @@
   .paragraph1 {
     margin-bottom: -3%;
   }
-  .references {
+  #references {
     display: flex;
     flex-direction: column;
     width: 63%;
