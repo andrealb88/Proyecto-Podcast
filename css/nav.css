@@ -107,8 +107,6 @@ a:active {
   display: flex;
   transform: scale(1.1);
   transition: all ease-out 0.2s;
-  color: rgba(6, 10, 36, 0.56);
-  text-decoration: line-through;
 }
 #desplegar:checked ~ .menu-desplazable {
   transform: translate(0);
@@ -139,6 +137,20 @@ a:active {
     padding-left: 20px;
     padding-right: 20px;
     color: black;
+  }
+  .anchor:hover {
+    display: flex;
+    transform: scale(1.1);
+    transition: all ease-out 0.2s;
+    color: #00F3BB;
+    text-decoration: line-through;
+  }
+  .anchor:active {
+    display: flex;
+    transform: scale(1.1);
+    transition: all ease-out 0.2s;
+    color: rgba(6, 10, 36, 0.56);
+    text-decoration: line-through;
   }
   .ul-navigation-links {
     font-family: "IBM Plex Mono", monospace;
