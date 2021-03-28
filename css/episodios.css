@@ -82,7 +82,7 @@
   margin-bottom: 2%;
 }
 @media screen and (min-width: 768px) {
-  .episodios {
+  #episodes {
     width: 100%;
   }
   .episodios-clip-path {
