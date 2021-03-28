@@ -49,6 +49,7 @@
   height: 360px;
   padding-left: 15px;
   margin-top: -16%;
+  line-height: 1.3;
 }
 .mobilephone {
   display: flex;
@@ -145,6 +146,7 @@
     height: 360px;
     padding-left: 10%;
     padding-top: 18%;
+    line-height: 1.3;
   }
   #nos {
     font-family: "IBM Plex Sans", sans-serif;
